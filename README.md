@@ -32,12 +32,3 @@ python src/main.py
 ```bash
 python src/benchmark.py
 ```
-
-## Synthèse des complexités
-
-| Composant | Algorithme / Structure | Complexité Temps | Complexité Espace |
-| :--- | :--- | :--- | :--- |
-| **Accès par ID** | Table de hachage (`dict`) | O(1) en moyenne | O(n) |
-| **Parcours global** | Tableau dynamique (`list`) | O(n) | O(n) |
-| **Tris multicritères** | Tri fusion (Merge Sort) | O(n log n) garanti | O(n) |
-| **Préparation camion** | Heuristique gloutonne pondérée | O(n log n) | O(n) |

@@ -26,7 +26,7 @@ Afin d'avoir la priorité d'influencer le chargement, on multiplie le score de l
 le benchmark réalisés de 100 a 100 000 colis, montre que le cout de la recherche lineaire, du tri et de la recherche depend du volume de donnée a traité. Quand a la recherche par id, le temps d'execution reste quasiments le meme peut importe le nombre de colis.
 Le benchmark montre bien que la recherche séquentielle a une complexité temporel O(n). Elle montre egalement une complexité temporel O(n log n) pour le tri fusion et O(n) pour le chargement glouton. Malgré tout, il faut nuancer le benchmark, les performances dépendent des machines.
 
-![Résultats du benchmark](capture_ecran/benchmark.png)
+![Résultats du benchmark](./capture_ecran/benchmark.png)
 
 ## 6. Synthèse des choix algorithmiques majeurs
 
@@ -39,4 +39,4 @@ Le benchmark montre bien que la recherche séquentielle a une complexité tempor
 | **Alternative** | Tableau dynamique seul ou liste chaînée | Tri à bulles / sélection O(n²) ou tri rapide | Programmation dynamique O(n * C) |
 | **Justification** | Recherche instantanée sans duplication des données | Évite le pire cas quadratique et garantit la stabilité | Traite 100 000 colis en moins d'une seconde |
 
-![Interface console](capture_ecran/interface.png)
+![Interface console](./capture_ecran/interface.png)

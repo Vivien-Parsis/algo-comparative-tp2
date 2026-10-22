@@ -1,6 +1,6 @@
 from colis import Colis
 from gestionnaire import GestionnaireColis
-from benchmark import lancer_benchmark
+from src.benchmark import lancer_benchmark
 
 def charger_donnees_initiales(gestionnaire):
     exemples = [
